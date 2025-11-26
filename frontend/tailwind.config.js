@@ -1,9 +1,13 @@
 export default {
-  content: ["./src/**/*.{js,ts,jsx,tsx,html}"],
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
-      backgroundImage: {
-        "lavender-gradient": "linear-gradient(90deg, #C7A0E8 0%, #8B5CF6 100%)",
+      colors: {
+        accent: "#121063",
       },
       fontFamily: {
         sans: ["Poppins", "sans-serif"],

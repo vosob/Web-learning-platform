@@ -1,13 +1,9 @@
-import { Button } from "./components/ui/button";
+import { Header } from "./components/Header";
 
 export const App = () => {
   return (
     <div>
-      <h1 className="text-3xl font-normal ">
-        <span className="text-gradient-text-green">Welcome</span> to the Web
-        Learning Platform
-      </h1>
-      <Button variant={"default"}>Click me</Button>
+      <Header />
     </div>
   );
 };
