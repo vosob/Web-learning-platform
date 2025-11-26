@@ -2,7 +2,7 @@ import { Button } from "./ui/button";
 
 export const Header = () => {
   return (
-    <div className="container mx-auto pt-5">
+    <div className="container mx-auto mb-17.5 pt-5">
       <div className="flex">
         <div className="h-10 w-10 bg-white"></div>
 
