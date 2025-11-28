@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 
 export const CoursesList = () => {
   return (
-    <section className="container text-center  text-4xl font-medium">
+    <section className="container text-center  text-4xl font-medium py-20">
       <h2 className="mb-10">
         Available
         <span className="text-green-accent "> Courses</span>
