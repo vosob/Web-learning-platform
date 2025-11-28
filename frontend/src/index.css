@@ -141,6 +141,8 @@
   max-width: 1440px;
   padding-left: 80px;
   padding-right: 80px;
+  padding-bottom: 80px;
+  padding-top: 80px;
 }
 
 html {

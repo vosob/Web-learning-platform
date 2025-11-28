@@ -3,6 +3,7 @@ import { CoursesList } from "../components/CoursesList";
 
 import { Hero } from "../components/Hero";
 import { AccordionComponent } from "@/components/AccordionComponent";
+import { StartComponent } from "@/StartComponent";
 
 export const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ export const HomePage = () => {
       <CoursesList />
       <ReviewsSlider />
       <AccordionComponent />
+      <StartComponent />
     </div>
   );
 };

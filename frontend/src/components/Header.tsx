@@ -7,7 +7,7 @@ export const Header = () => {
     <div className="container mx-auto mb-17.5 pt-5">
       <div className="flex">
         <Link to="/">
-          <div className="h-10 w-10 bg-white"></div>
+          <img className="h-10 w-10" src="../../public/logo.svg"></img>
         </Link>
 
         <div className="ml-auto flex gap-6">

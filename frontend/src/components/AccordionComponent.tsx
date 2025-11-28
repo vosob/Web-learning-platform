@@ -8,7 +8,7 @@ import { accordionList } from "@/source/Accordion";
 
 export const AccordionComponent = () => {
   return (
-    <section className="container">
+    <section className="container pb-10">
       <h2 className="font-bold text-center text-4xl mb-12">
         Frequently Asked <span className="text-green-accent">Questions</span>
       </h2>
