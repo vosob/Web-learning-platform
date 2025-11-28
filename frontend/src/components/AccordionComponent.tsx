@@ -4,9 +4,9 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { acardionList } from "@/source/Acardion";
+import { accordionList } from "@/source/Accordion";
 
-export const Acardion = () => {
+export const AccordionComponent = () => {
   return (
     <section className="container">
       <h2 className="font-bold text-center text-4xl mb-12">
@@ -16,13 +16,17 @@ export const Acardion = () => {
       <Accordion
         type="single"
         collapsible
-        className="w-[650px] mx-auto bg-gray-900 rounded-xl"
+        className="w-[650px] mx-auto flex flex-col gap-5"
       >
-        {acardionList.map((item) => (
-          <AccordionItem key={item.id} value={`item-${item.id}`}>
-            <AccordionTrigger className="px-6">{item.title}</AccordionTrigger>
+        {accordionList.map((item) => (
+          <AccordionItem
+            className="bg-gray-900 rounded-2xl"
+            key={item.id}
+            value={`item-${item.id}`}
+          >
+            <AccordionTrigger className="px-6 ">{item.title}</AccordionTrigger>
 
-            <AccordionContent className="flex flex-col gap-4 text-balance pl-6">
+            <AccordionContent className="flex flex-col text-balance pl-6">
               <p>{item.content}</p>
             </AccordionContent>
           </AccordionItem>

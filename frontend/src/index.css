@@ -142,3 +142,7 @@
   padding-left: 80px;
   padding-right: 80px;
 }
+
+html {
+  scrollbar-gutter: stable;
+}

@@ -1,4 +1,4 @@
-export const acardionList = [
+export const accordionList = [
   {
     id: 1,
     title: "What makes your courses different from free tutorials?",
