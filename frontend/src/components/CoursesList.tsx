@@ -15,7 +15,7 @@ export const CoursesList = () => {
             key={course.id}
           >
             <img
-              className="min-w-[400px] h-[230px] rounded-t-xl"
+              className="h-[230px] rounded-t-xl"
               src={course.img}
               alt={course.title}
             />
@@ -32,10 +32,7 @@ export const CoursesList = () => {
                 </span>
                 <ul className="flex gap-3 ">
                   {course.stack.map((item) => (
-                    <li
-                      className="inline-block w-[27px] h-[27px]"
-                      key={item.id}
-                    >
+                    <li className="min-h-8 min-w-8" key={item.id}>
                       <item.icon />
                     </li>
                   ))}

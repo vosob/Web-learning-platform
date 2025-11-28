@@ -2,7 +2,7 @@ import { TbFileTypeSql } from "react-icons/tb";
 import { FaJs } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
-import { BiLogoTypescript } from "react-icons/bi";
+
 import next from "../images/next.png";
 import react from "../images/react.png";
 import tailwind from "../images/tailwind.png";
@@ -65,7 +65,7 @@ export const courses = [
     stack: [
       {
         id: 1,
-        icon: BiLogoTypescript,
+        icon: SiTypescript,
       },
     ],
   },
