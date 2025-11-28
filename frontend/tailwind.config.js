@@ -13,6 +13,9 @@ export default {
         sans: ["Poppins", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
       },
+      fontSize: {
+        default: "18px",
+      },
     },
   },
   plugins: [],
